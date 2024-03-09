@@ -19,7 +19,7 @@ public class BubleSort {
                     swapped=true;
                 }
             }
-            System.out.println(i+" "+Arrays.toString(arr));
+            System.out.println("BubleSort Itertaion "+i+" "+Arrays.toString(arr));
             if(!swapped){
                 break;
             }
